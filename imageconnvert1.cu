@@ -8,7 +8,7 @@ using namespace cv;
 using namespace std;
 //nvcc -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin" -o imageconnvert1 imageconnvert1.cu -I "C:\opencv\build\include" -l "C:\opencv\build\x64\vc15\lib\opencv_world341"
 //imwrite("C:\\Users\\Austin\\Pictures\\wallpapers\\IMG_3581GR.JPG", img_Grey);
-// test repo from another
+//ssstest repo from another
 __global__ void kernel (unsigned char *d_in,unsigned char* d_out, int width, int height, int widthStep, int channels) {
     int x = blockIdx . x * blockDim . x + threadIdx . x ;
     int y = blockIdx . y * blockDim . y + threadIdx . y ;
