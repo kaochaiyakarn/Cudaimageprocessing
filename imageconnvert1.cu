@@ -106,6 +106,7 @@ int main(int argc, char** argv)
 		end_t = clock();
 		total_t = (double)(end_t - start_t);
 		printf("Total time taken by GPU: %d\n", total_t  );
+// test subNewBranch
 	}
 }
 
